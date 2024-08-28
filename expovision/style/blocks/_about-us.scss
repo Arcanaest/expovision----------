@@ -1,0 +1,21 @@
+.our-image{
+    width: 577px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+    & img{
+        width: 100%;
+    }
+    @media (max-width: 1199px){
+        width: 100%;
+    }
+}
+.info{
+    width: 561px;
+    @media (max-width: 1199px){
+        width: 100%;
+    }
+}
+.about-us{
+    margin-bottom: 120px;
+}

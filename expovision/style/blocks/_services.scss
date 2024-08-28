@@ -1,0 +1,52 @@
+
+.start-up-image{
+    border-radius: 20px 0px 0px 0px;
+    @media (max-width: 1199px){
+        width: 100%;
+    }
+    width: 48%;
+    img{
+        width: 100%;
+    }
+}
+
+.qatar-img{
+    width: 48%;
+    border-radius: 20px 0px 0px 0px;
+    @media (max-width: 1199px){
+        width: 100%;
+    }
+    & img{
+        width: 100%;
+    }
+}
+
+.start-up-info, .qatar-info{
+    width: 48%;
+    @media (max-width: 1199px){
+        width: 100%;
+    }
+
+}
+.qatar {
+    @media (max-width: 1199px){
+        flex-direction: column-reverse;
+    }
+}
+.services flex__title{
+    @media (max-width: 1199px){
+        font-size: 48px;
+    }
+    @media (max-width: 787px){
+        font-size: 24px;
+    }
+
+}
+.services flex__text{
+    @media (max-width: 1199px){
+        font-size: 24px;    
+    }
+    @media (max-width: 787px){
+        font-size: 12px;
+    }
+}
