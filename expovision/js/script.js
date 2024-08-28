@@ -1,13 +1,13 @@
-const btn = document.getElementById('application');
-const form = document.getElementById('form__port');
+const btn = document.getElementById("application");
+const form = document.getElementById("form__port");
 
-btn.addEventListener('click', () => {
-  form.style.display = 'flex';
+btn.addEventListener("click", () => {
+  form.style.display = "flex";
 });
 
-form.addEventListener('click', (e) => {
-  if (e.target.classList.contains('form__port')) {
-    form.style.display = 'none';
+form.addEventListener("click", (e) => {
+  if (e.target.classList.contains("form__port")) {
+    form.style.display = "none";
   }
 });
 
@@ -17,8 +17,8 @@ function Marquee(selector, speed) {
   const firstElement = parentSelector.children[0];
   let i = 0;
   console.log(firstElement);
-  parentSelector.insertAdjacentHTML('beforeend', clone);
-  parentSelector.insertAdjacentHTML('beforeend', clone);
+  parentSelector.insertAdjacentHTML("beforeend", clone);
+  parentSelector.insertAdjacentHTML("beforeend", clone);
 
   setInterval(function () {
     firstElement.style.marginLeft = "-" + i + "px";
@@ -28,5 +28,4 @@ function Marquee(selector, speed) {
     i = i + speed;
   }, 0);
 }
-window.addEventListener('load', Marquee('.marquee', 0.2));
-
+window.addEventListener("load", Marquee(".marquee", 0.2));
